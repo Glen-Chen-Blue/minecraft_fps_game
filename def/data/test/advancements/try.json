@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_sword",
+            "nbt": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:1}]}"
+        },
+        "title": "Hello",
+        "background": "minecraft:textures/block/gold_block.png",
+        "description": "how old are you",
+        "hidden": false
+    },
+    "criteria": {
+        "success":{
+            "trigger":"minecraft:player_killed_entity",
+            "conditions":{"entity":{"type":"minecraft:zombie"}}
+        },
+        "success2":{
+            "trigger":"minecraft:player_killed_entity",
+            "conditions":{"entity":{"type":"minecraft:skeleton"}}
+        }
+    },
+    "requirements": [["success"],["success2"]],
+    "rewards": {
+        "experience": 100
+    } 
+}

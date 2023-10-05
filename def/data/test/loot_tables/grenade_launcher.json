@@ -1,0 +1,19 @@
+{
+    "pools":[
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"test:grenade_launcher\",display:{Name:'{\"translate\":\"item.grenade_launcher\"}'},CustomModelData:10010005,detonate:1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "pools":[
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"test:grenade\",display:{Name:'{\"translate\":\"item.grenade\"}'},CustomModelData:3}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

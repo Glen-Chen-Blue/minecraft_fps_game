@@ -1,0 +1,1 @@
+scoreboard players remove @s summon_sword 1

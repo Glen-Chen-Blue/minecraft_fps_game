@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/gunheld",
+  "textures": {
+    "layer0": "minecraft:item/gun/fire_gun"
+  }
+}

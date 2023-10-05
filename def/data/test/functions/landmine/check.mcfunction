@@ -1,0 +1,1 @@
+execute if entity @a[distance=..5,gamemode=survival] run execute as @a[distance=..5] at @s run function test:landmine/onground

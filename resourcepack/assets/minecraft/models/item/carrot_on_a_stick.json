@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+  "overrides":[
+    {"predicate":{"custom_model_data":10010001},"model":"item/gun/gun"},
+    {"predicate":{"custom_model_data":10010002},"model":"item/gun/rocket_launcher"},
+    {"predicate":{"custom_model_data":10010003},"model":"item/gun/shotgun"},
+    {"predicate":{"custom_model_data":10010004},"model":"item/gun/fire_gun"},
+    {"predicate":{"custom_model_data":10010005},"model":"item/gun/grenade_launcher"},
+    
+    {"predicate":{"custom_model_data":10020001},"model":"item/chest_item/sender"},
+    {"predicate":{"custom_model_data":10020002},"model":"item/chest_item/landmine"},
+    
+    {"predicate":{"custom_model_data":10030001},"model":"item/skill/wall"},
+    {"predicate":{"custom_model_data":10030002},"model":"item/skill/disturber"},
+    {"predicate":{"custom_model_data":10030003},"model":"item/skill/treater"},
+    {"predicate":{"custom_model_data":10030004},"model":"item/skill/sticky"},
+    {"predicate":{"custom_model_data":10030005},"model":"item/skill/quicken"},
+    {"predicate":{"custom_model_data":10030006},"model":"item/skill/trap"},
+    {"predicate":{"custom_model_data":10030007},"model":"item/skill/summon_sword"},
+
+    {"predicate":{"custom_model_data":10040001},"model":"item/other/check"}
+  ]
+}

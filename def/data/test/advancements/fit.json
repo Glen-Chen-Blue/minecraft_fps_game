@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "hi":{
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:diamond_pickaxe"
+                    ],
+                    "nbt": "{\"CustomModelData\":1}"
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {"nbt": "{Inventory:[{\"tag\":{\"id\":\"test:chain_pickaxe\"},\"Slot\":1b}]}"}
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "test:chain/check"
+    }
+}

@@ -1,0 +1,2 @@
+execute if score @s bullet_3 matches 1.. if score @s grenade_delay matches 0 if score @s grenade_num matches ..2 run function test:grenade_launcher/have_shoot
+execute if score @s bullet_3 matches 0 run title @s actionbar {"text":"流彈耗盡","color":"red"}

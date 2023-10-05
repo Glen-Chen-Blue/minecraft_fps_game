@@ -1,0 +1,2 @@
+execute if score @s bullet_2 matches 1.. if score @s fire_gun_delay matches ..0 run function test:fire_gun/have_shoot
+execute if score @s bullet_2 matches 0 run title @s actionbar {"text":"砲彈耗盡","color":"red"}

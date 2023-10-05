@@ -1,0 +1,11 @@
+{
+    "type":"smelting",
+    "ingredient":[
+        {
+            "item":"minecraft:stick"
+        }
+    ],
+    "result":"minecraft:carrot_on_a_stick",
+    "experience":1,
+    "cookingtime":10
+}

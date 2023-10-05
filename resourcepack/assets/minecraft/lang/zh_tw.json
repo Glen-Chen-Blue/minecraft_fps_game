@@ -1,0 +1,36 @@
+{
+    "item.rocket_launcher":"爆裂魔法 Explosion",
+    "item.gun":"這玩意比魔杖更好用啊",
+    "item.fire_gun":"恁刀勒灰修厝",
+    "item.shotgun":"綠色法皇",
+    "item.grenade_launcher":"榴彈發射器",
+
+    "item.bullet":"子彈",
+    "item.rocket":"砲彈",
+    "item.grenade":"流彈",
+
+    "item.sender":"國家機器",
+    "item.landmine":"殺手皇后",
+
+    "item.wall":"神羅天征",
+    "item.disturber":"SCP173",
+    "item.treater":"瘋狂鑽石",
+    "item.sticky":"無量空處",
+    "item.quicken":"modohiyaku",
+    "item.trap":"太平島挖石油",
+    "item.summon_sword":"無限劍製",
+    "item.super_sword":"王之寶鑰",
+
+    "item.potion2":"緩速",
+    "item.potion5":"力量",
+    "item.potion6":"立即治療",
+    "item.potion7":"立即傷害",
+    "item.potion9":"噁心",
+    "item.potion14":"隱形",
+    "item.potion15":"失明",
+    "item.potion19":"中毒",
+    "item.potion20":"凋零",
+    "item.potion25":"漂浮",
+
+    "item.check":"確認"
+}

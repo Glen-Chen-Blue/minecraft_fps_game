@@ -1,0 +1,19 @@
+{
+    "pools":[
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"test:trap\",display:{Name:'{\"translate\":\"item.trap\"}'},CustomModelData:10030006}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

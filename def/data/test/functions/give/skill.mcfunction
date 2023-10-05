@@ -1,0 +1,1 @@
+loot give @s loot test:give_skill

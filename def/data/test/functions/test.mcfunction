@@ -1,0 +1,10 @@
+execute at Blue_Time run summon slime ^ ^ ^-0.3 {NoAI:1b,NoGravity:1b,Silent:1b,Size:0,DeathLootTable:"",Health:0f}
+execute at Blue_Time run summon slime ^ ^ ^-0.3 {NoAI:1b,NoGravity:1b,Silent:1b,Size:0,DeathLootTable:"",Health:0f}
+execute at Blue_Time run summon slime ^ ^ ^-0.3 {NoAI:1b,NoGravity:1b,Silent:1b,Size:0,DeathLootTable:"",Health:0f}
+execute at Blue_Time run summon slime ^ ^ ^-0.3 {NoAI:1b,NoGravity:1b,Silent:1b,Size:0,DeathLootTable:"",Health:0f}
+execute at Blue_Time run summon slime ^ ^ ^-0.3 {NoAI:1b,NoGravity:1b,Silent:1b,Size:0,DeathLootTable:"",Health:0f}
+execute at Blue_Time run summon slime ^ ^ ^-0.3 {NoAI:1b,NoGravity:1b,Silent:1b,Size:0,DeathLootTable:"",Health:0f}
+execute at Blue_Time run summon slime ^ ^ ^-0.3 {NoAI:1b,NoGravity:1b,Silent:1b,Size:0,DeathLootTable:"",Health:0f}
+execute at Blue_Time run summon slime ^ ^ ^-0.3 {NoAI:1b,NoGravity:1b,Silent:1b,Size:0,DeathLootTable:"",Health:0f}
+execute at Blue_Time run summon slime ^ ^ ^-0.3 {NoAI:1b,NoGravity:1b,Silent:1b,Size:0,DeathLootTable:"",Health:0f}
+execute at Blue_Time run summon slime ^ ^ ^-0.3 {NoAI:1b,NoGravity:1b,Silent:1b,Size:0,DeathLootTable:"",Health:0f}

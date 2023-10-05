@@ -1,0 +1,20 @@
+[
+    {  
+        "function": "minecraft:enchant_randomly"    
+    },
+    {
+        "function": "minecraft:set_count",
+        "count": 1100
+    },
+    {
+        "function": "minecraft:set_name",
+        "name": "hello"
+    },
+    {
+        "function": "minecraft:limit_count",
+        "limit": {
+            "max": 1500,
+            "min": 1000
+        }
+    }
+]

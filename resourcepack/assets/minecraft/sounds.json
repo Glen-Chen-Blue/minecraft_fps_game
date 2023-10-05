@@ -1,0 +1,20 @@
+{
+    "custom.gun":{
+        "category":"master",
+        "sounds":[
+            "custom/gun"
+        ]
+    },
+    "custom.rocket":{
+        "category":"master",
+        "sounds":[
+            "custom/rocket"
+        ]
+    },
+    "custom.landmine":{
+        "category":"master",
+        "sounds":[
+            "custom/landmine"
+        ]
+    }
+}

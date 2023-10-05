@@ -1,0 +1,36 @@
+{
+    "item.rocket_launcher":"Rocket launcher",
+    "item.gun":"Gun",
+    "item.fire_gun":"Fire gun",
+    "item.shotgun":"Shotgun",
+    "item.grenade_launcher":"Grenade launcher",
+
+    "item.bullet":"bullet",
+    "item.rocket":"rocket",
+    "item.grenade":"grenade",
+
+    "item.sender":"sender",
+    "item.landmine":"landmine",
+
+    "item.wall":"shield",
+    "item.disturber":"disturber",
+    "item.treater":"treater",
+    "item.sticky":"sticky",
+    "item.quicken":"quicken",
+    "item.trap":"trap",
+    "item.summon_sword":"summon sword",
+    "item.super_sword":"super sword",
+    
+    "item.potion2":"slowness potion",
+    "item.potion5":"strength potion",
+    "item.potion6":"instant_health potion",
+    "item.potion7":"instant_damage potion",
+    "item.potion9":"nausea potion",
+    "item.potion14":"invisibility potion",
+    "item.potion15":"blindness potion",
+    "item.potion19":"poison potion",
+    "item.potion20":"wither potion",
+    "item.potion25":"levitation potion",
+
+    "item.check":"check"
+}

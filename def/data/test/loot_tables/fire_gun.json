@@ -1,0 +1,19 @@
+{
+    "pools":[
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"test:fire_gun\",display:{Name:'{\"translate\":\"item.fire_gun\"}'},CustomModelData:10010004}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

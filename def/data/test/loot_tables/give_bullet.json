@@ -1,0 +1,31 @@
+{
+    "pools":[
+        {
+            "rolls": 64,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "test:bullet"
+                }
+            ]
+        },
+        {
+            "rolls": 64,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "test:rocket"
+                }
+            ]
+        },
+        {
+            "rolls": 64,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "test:grenade"
+                }
+            ]
+        }
+    ]
+}

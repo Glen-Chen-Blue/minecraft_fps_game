@@ -1,0 +1,1111 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.6
+                }
+            ],
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "test:gun",
+                    "weight": 6
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:rocket_launcher",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:fire_gun",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:shotgun",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:grenade_launcher",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.6
+                }
+            ],
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "test:gun",
+                    "weight": 6
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:rocket_launcher",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:fire_gun",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:shotgun",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:grenade_launcher",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                }
+            ],
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "test:bullet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 6,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:rocket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:grenade",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 3,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                }
+            ],
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "test:bullet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 6,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:rocket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:grenade",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 3,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                }
+            ],
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "test:bullet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 6,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:rocket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:grenade",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 3,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                }
+            ],
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "test:bullet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 6,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:rocket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:grenade",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 3,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                }
+            ],
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "test:bullet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 6,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:rocket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:grenade",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 3,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.4
+                }
+            ],
+            "entries": [
+                {
+                    "type":"item",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 1
+                },
+                {
+                    "type":"item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cooked_beef",
+                    "weight": 8
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.4
+                }
+            ],
+            "entries": [
+                {
+                    "type":"item",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 1
+                },
+                {
+                    "type":"item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cooked_beef",
+                    "weight": 8
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.4
+                }
+            ],
+            "entries": [
+                {
+                    "type":"item",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 1
+                },
+                {
+                    "type":"item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cooked_beef",
+                    "weight": 8
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.8
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 4,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:spyglass",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:sender",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:landmine",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.8
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 4,
+                                "min": 1,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:spyglass",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:sender",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:landmine",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.8
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:enchant_randomly",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.5
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:enchant_randomly",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.5
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:trident",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_helmet",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_boots",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_leggings",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_chestplate",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_helmet",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_boots",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_leggings",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_chestplate",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_helmet",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_leggings",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_boots",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_leggings",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_chestplate",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_helmet",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_axe",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_axe",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_axe",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_sword",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_axe",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_axe",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_sword",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.8
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:enchant_randomly",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.5
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:enchant_randomly",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.5
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:trident",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_helmet",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_boots",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_leggings",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_chestplate",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_helmet",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_boots",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_leggings",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_chestplate",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_helmet",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_leggings",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_boots",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_leggings",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_chestplate",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_helmet",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_axe",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_axe",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_axe",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_sword",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_axe",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_axe",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_sword",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:400,Id:2b}],display:{Name:'{\"translate\":\"item.potion2\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:600,Id:5b}],display:{Name:'{\"translate\":\"item.potion5\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:40,Id:6b,Amplifier:3}],display:{Name:'{\"translate\":\"item.potion6\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:0,Id:7b,Amplifier:1}],display:{Name:'{\"translate\":\"item.potion7\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:200,Id:9b,Amplifier:1}],display:{Name:'{\"translate\":\"item.potion9\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:1200,Id:14b,Amplifier:1}],display:{Name:'{\"translate\":\"item.potion14\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:200,Id:15b,Amplifier:1}],display:{Name:'{\"translate\":\"item.potion15\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:200,Id:19b,Amplifier:1}],display:{Name:'{\"translate\":\"item.potion19\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:200,Id:20b,Amplifier:1}],display:{Name:'{\"translate\":\"item.potion20\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:200,Id:25b,Amplifier:1}],display:{Name:'{\"translate\":\"item.potion25\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.5
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:400,Id:2b}],display:{Name:'{\"translate\":\"item.potion2\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:600,Id:5b}],display:{Name:'{\"translate\":\"item.potion5\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:40,Id:6b,Amplifier:3}],display:{Name:'{\"translate\":\"item.potion6\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:0,Id:7b,Amplifier:1}],display:{Name:'{\"translate\":\"item.potion7\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:200,Id:9b,Amplifier:1}],display:{Name:'{\"translate\":\"item.potion9\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:1200,Id:14b,Amplifier:1}],display:{Name:'{\"translate\":\"item.potion14\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:200,Id:15b,Amplifier:1}],display:{Name:'{\"translate\":\"item.potion15\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:200,Id:19b,Amplifier:1}],display:{Name:'{\"translate\":\"item.potion19\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:200,Id:20b,Amplifier:1}],display:{Name:'{\"translate\":\"item.potion20\"}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Duration:200,Id:25b,Amplifier:1}],display:{Name:'{\"translate\":\"item.potion25\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

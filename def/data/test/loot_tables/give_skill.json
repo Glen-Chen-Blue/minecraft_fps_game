@@ -1,0 +1,37 @@
+{
+    "pools":[
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "test:wall"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:disturber"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:treater"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:sticky"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:quicken"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:trap"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "test:summon_sword"
+                }
+            ]
+        }
+    ]
+}
